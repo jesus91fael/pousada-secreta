@@ -1,0 +1,31 @@
+.box-mini-banner{
+  background-image: url('assets/img-fundo.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  height: 35vh;
+}
+
+.detalhe-quarto-pag{
+  border: none;
+}
+
+.detalhe-quarto-pag img{
+  height: 160px;
+}
+
+.info-quartos h3{
+  padding: 30px;
+  font-weight: 600;
+}
+
+.info-quartos ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.info-quartos ul li{
+  flex-basis: 25%;
+  text-align: left;
+}
